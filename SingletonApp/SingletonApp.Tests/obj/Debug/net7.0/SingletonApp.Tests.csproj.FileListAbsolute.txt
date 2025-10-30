@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Tests\obj\Debug\net7.0\SingletonApp.Tests.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Tests\obj\Debug\net7.0\SingletonApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Tests\obj\Debug\net7.0\SingletonApp.Tests.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Tests\obj\Debug\net7.0\SingletonApp.Tests.AssemblyInfo.cs
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Tests\obj\Debug\net7.0\SingletonApp.Tests.csproj.CoreCompileInputs.cache
