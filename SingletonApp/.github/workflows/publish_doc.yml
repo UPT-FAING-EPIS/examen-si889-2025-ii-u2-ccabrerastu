@@ -1,0 +1,62 @@
+name: 📘 Generar y publicar documentación
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Clona el repositorio
+      - name: 🔄 Checkout del repositorio
+        uses: actions/checkout@v4
+
+      # 2️⃣ Instala .NET SDK
+      - name: 🧩 Configurar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 7.0.x
+
+      # 3️⃣ Restaura dependencias
+      - name: 📦 Restaurar dependencias
+        run: dotnet restore
+
+      # 4️⃣ Compila el proyecto
+      - name: 🛠️ Compilar solución
+        run: dotnet build --configuration Release --no-restore
+
+      # 5️⃣ Generar documentación XML y Markdown con DocFX
+      - name: 📄 Instalar DocFX
+        run: |
+          dotnet tool install -g docfx
+          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+
+      - name: 🧱 Generar documentación con DocFX
+        run: |
+          docfx init -q
+          docfx metadata
+          docfx build
+
+      # 6️⃣ Generar diagrama de clases con PlantUML (usando Graphviz)
+      - name: 🌐 Instalar Graphviz y PlantUML
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphviz
+          sudo apt-get install -y plantuml
+
+      - name: 🖼️ Generar diagrama de clases
+        run: |
+          mkdir -p docs/diagramas
+          find . -name "*.cs" > sourceFiles.txt
+          plantuml -tpng sourceFiles.txt -o docs/diagramas/
+
+      # 7️⃣ Publicar en GitHub Pages
+      - name: 🚀 Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site  # Carpeta generada por DocFX
+
