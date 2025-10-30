@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\bin\Debug\net7.0\SingletonApp.Domain.deps.json
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\bin\Debug\net7.0\SingletonApp.Domain.dll
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\bin\Debug\net7.0\SingletonApp.Domain.pdb
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.AssemblyInfo.cs
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.sourcelink.json
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.dll
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\refint\SingletonApp.Domain.dll
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\SingletonApp.Domain.pdb
+C:\Users\HP\Desktop\examen-si889-2025-ii-u2-ccabrerastu\SingletonApp\SingletonApp.Domain\obj\Debug\net7.0\ref\SingletonApp.Domain.dll
