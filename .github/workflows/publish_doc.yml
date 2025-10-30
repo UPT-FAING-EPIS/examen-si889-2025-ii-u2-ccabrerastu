@@ -22,11 +22,11 @@ jobs:
 
       # 3️⃣ Restaura dependencias
       - name: 📦 Restaurar dependencias
-        run: dotnet restore
+        run: dotnet restore ./SingletonApp/SingletonApp.sln
 
       # 4️⃣ Compila el proyecto
       - name: 🛠️ Compilar solución
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./SingletonApp/SingletonApp.sln --configuration Release --no-restore
 
       # 5️⃣ Generar documentación XML y Markdown con DocFX
       - name: 📄 Instalar DocFX
